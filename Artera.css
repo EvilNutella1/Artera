@@ -36,13 +36,10 @@
     h1 {
         border-bottom: 1px solid rgb(196, 196, 196);
         margin-bottom: 5px;
-    }
-
-    #welcome {
         text-align: center;
     }
 
-    #main {
+    .main {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -50,20 +47,45 @@
     }
 
     main {
-        width: 100%;
+        width: 60%;
+        margin-left: 7px;
+        margin-right: 7px;
     }
 
     aside {
         color: #b69d4d;
         background-color: rgb(18, 27, 43);
-        width: 25%;
+        width: 20%;
         height: 300px;
-        border-bottom-left-radius: 6px;
-        border-bottom-right-radius: 6px;
     }
 
     #links {
         background-image: url(Schmetterling.gif);
+        background-size: cover;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    #links2 {
+        background-color: #b69d4d;
+        color: rgb(18, 27, 43);
+        height: 300px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    #rechts {
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    #rechts2 {
+        background-color: #b69d4d;
+        color: rgb(18, 27, 43);
+        height: 300px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        background-image: url(kitty.gif);
         background-size: cover;
     }
 
@@ -76,27 +98,69 @@
         height: 100%;
     }
 
-    h3 {
+    #h3-1 {
         margin-top: 0px;
         margin-bottom: 0px;
         text-align: center;
         text-decoration: underline 1px solid #b69d4d;
     }
 
+    #h3-2 {
+        margin-top: 16px;
+        margin-bottom: 0px;
+        text-align: center;
+        text-decoration: underline 1px solid rgb(18, 27, 43);
+    }
+
     footer {
-        background-color: rgb(18, 27, 43);
-        color: #b69d4d;
-        height: 40px;
-        border-radius: 6px;
+        background-color: #b69d4d;
+        color: rgb(18, 27, 43);
+        height: 200px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .footer {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    #footer p {
+        margin-left: 20px;
+    }
+
+    #footer a {
+        color: rgb(18, 27, 43);
+    }
+
+    #aboutweb {
+        margin-bottom: 5px;
     }
 
     #bordertop {
         border-top: 1px solid rgb(196, 196, 196);
         margin: 20px;
+    }
+
+    #border {
+        border-bottom: 1px solid rgb(18, 27, 43);
+        ;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
     }
 
     #instagram {
@@ -134,26 +198,63 @@
         align-items: center;
     }
 
+    .linkbox2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+        height: 60%;
+    }
+
     a {
         text-decoration: none;
-        color: #b69d4d;
+        color: rgb(18, 27, 43);
     }
 
     a:hover {
         color: #67070f;
+        text-decoration: underline 1px solid #67070f;
     }
 
-    #text {
-        margin-left: 7px;
-        margin-right: 7px;
-    }
 
-    #GameArea {
-        margin-left: 8px;
-    }
+}
 
-    #Contact {
-        margin-right: 8px;
-    }
+#infotext {
+    margin-bottom: 5px;
+}
 
+#satzspiel {
+    display: inline-block;
+    color: transparent;
+    background-color: rgb(18, 27, 43);
+    user-select: none;
+    /* verhindert die Textauswahl */
+    margin-top: 0px;
+}
+
+#satzspiel:hover {
+    color: black;
+    background-color: transparent;
+    pointer-events: auto;
+    /* macht das Element wieder anklickbar */
+    user-select: none;
+    /* erlaubt die Textauswahl */
+}
+
+#satzspiel:hover span {
+    color: transparent;
+    background-color: rgb(18, 27, 43);
+    pointer-events: auto;
+    /* macht das Element wieder anklickbar */
+    user-select: none;
+    /* erlaubt die Textauswahl */
+}
+
+#satzspiel:active span {
+    color: black;
+    background-color: transparent;
+    pointer-events: auto;
+    /* macht das Element wieder anklickbar */
+    user-select: auto;
+    /* erlaubt die Textauswahl */
 }
