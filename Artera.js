@@ -4,12 +4,26 @@ function showThankYou() {
         alert("Please enter your name!");
         return;
     }
-    if (/\s/.test(name)) {  // Prüft, ob Leerzeichen drin sind
+    if (/\s/.test(name)) {
         alert("Please enter only one word without spaces!");
         return;
     }
+
     const message = `Thank you for visiting Artera Kingdom, ${name}! You are a lovely person!♥`;
-    document.getElementById("thankYouMessage").textContent = message;
+    
+    const msgElement = document.getElementById("thankYouMessage");
+    msgElement.textContent = message;
+
+    // 💛 Verlauf anwenden
+    msgElement.style.background = `linear-gradient(to bottom,
+        #edbc6b 0%,
+        #e9cc82 25%,
+        #ddbd73 50%,
+        #d0a04a 75%,
+        #d6ac62 100%)`;
+    msgElement.style.backgroundClip = 'text';
+    msgElement.style.webkitBackgroundClip = 'text'; // Für Safari/Chrome
+    msgElement.style.color = 'transparent';
 }
 
 function checkAnswer() {
