@@ -67,7 +67,7 @@
     }
 
     #links2 {
-        background-color: #b69d4d;
+        background-color: #caad4d;
         color: rgb(18, 27, 43);
         height: 350px;
         border-top-left-radius: 6px;
@@ -80,7 +80,7 @@
     }
 
     #rechts2 {
-        background-color: #b69d4d;
+        background-color: #caad4d;
         color: rgb(18, 27, 43);
         height: 350px;
         border-top-left-radius: 6px;
@@ -113,7 +113,7 @@
     }
 
     footer {
-        background-color: #b69d4d;
+        background-color: #caad4d;
         color: rgb(18, 27, 43);
         height: 200px;
         border-bottom-right-radius: 6px;
@@ -178,7 +178,7 @@
     #IG {
         margin-top: 5px;
         font-size: small;
-        border: 1px solid #b69d4d;
+        border: 1px solid #caad4d;
         border-radius: 3px;
         padding: 2px;
     }
@@ -186,7 +186,7 @@
     #DC {
         margin-top: 0px;
         font-size: small;
-        border: 1px solid #b69d4d;
+        border: 1px solid #caad4d;
         border-radius: 3px;
         padding: 2px;
     }
