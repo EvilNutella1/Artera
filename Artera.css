@@ -132,10 +132,12 @@
         text-align: center;
         text-decoration: underline solid #edbc6b;
         text-decoration-thickness: 0.03em;
-        background: linear-gradient(to bottom,
-                #d0a04a 0%,
-                #edbc6b 50%,
-                #e9cc82 100%);
+         background: linear-gradient(to bottom,
+                #edbc6b 0%,
+                #e9cc82 25%,
+                #ddbd73 50%,
+                #d0a04a 75%,
+                #d6ac62 100%);
         background-clip: text;
         -webkit-background-clip: text;
         /* für Safari/Chrome */
