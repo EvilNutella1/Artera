@@ -130,7 +130,8 @@
         margin-top: 0px;
         margin-bottom: 0px;
         text-align: center;
-        text-decoration: underline 1px solid #edbc6b;
+        text-decoration: underline solid #edbc6b;
+        text-decoration-thickness: 0.03em;
         background: linear-gradient(to bottom,
                 #d0a04a 0%,
                 #edbc6b 50%,
@@ -146,6 +147,7 @@
         margin-bottom: 0px;
         text-align: center;
         text-decoration: underline 1px solid rgb(18, 27, 43);
+        text-decoration-thickness: 0.03em;
     }
 
     footer {
