@@ -257,9 +257,11 @@
 
     :root {
         --gold-gradient: linear-gradient(to bottom,
-                #d0a04a 0%,
-                #edbc6b 50%,
-                #e9cc82 100%);
+                #edbc6b 0%,
+                #e9cc82 25%,
+                #ddbd73 50%,
+                #d0a04a 75%,
+                #d6ac62 100%);
     }
 
     #infotext {
